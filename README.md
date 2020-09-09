@@ -1,4 +1,4 @@
-# Java-spring-boot-app
+# Java-Spring-Boot-App
 
 # Initialize
 mkdir workdir && cd workdir && git clone https://github.com/RavirahulPadmanabhan/Java-spring-boot-app.git && cd Java-spring-boot-app
