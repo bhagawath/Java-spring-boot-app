@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Application {
 
-	@RequestMapping("/")
+	@RequestMapping("/v2")
 	public String home() {
 		return "Hello from Java Spring Boot test app";
 	}
