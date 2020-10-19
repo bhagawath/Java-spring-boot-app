@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Application {
 
-	@RequestMapping("/v3")
+	@RequestMapping("/v4")
 	public String home() {
-		return "Hello from Java Spring Boot test app";
+		return "{\"id\":\"2034\",\"projectName\":\"DEVOPS Accelerator\",\"companyName\":\"Sopra Steria\"}";
 	}
 
 	public static void main(String[] args) {
