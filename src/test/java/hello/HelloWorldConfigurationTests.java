@@ -43,7 +43,7 @@ public class HelloWorldConfigurationTests {
 	@Test
 	public void testGreeting() throws Exception {
 		ResponseEntity<String> entity = restTemplate
-				.getForEntity("http://localhost:" + this.port + "/v3", String.class);
+				.getForEntity("http://localhost:" + this.port + "/v2", String.class);
 		assertEquals(HttpStatus.OK, entity.getStatusCode());
 	}
 
