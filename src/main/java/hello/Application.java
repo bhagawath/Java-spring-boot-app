@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Application {
 
-	@RequestMapping("/v5")
+	@RequestMapping("/v1")
 	public String home() {
 		return "{\"id\":\"2034\",\"projectName\":\"DEVOPS Accelerator\",\"companyName\":\"Sopra Steria\"}";
 	}
